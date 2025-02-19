@@ -21,7 +21,7 @@ def load_documents(file_path):
 
 def get_chat_llm(
     provider: Literal["openai", "google"]="google",
-    temperature: int=0.7,
+    temperature: int=0.1,
     max_token: int=2048
 ):
     if provider == "google":
